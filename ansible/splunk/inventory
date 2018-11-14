@@ -1,0 +1,19 @@
+[all]
+172.32.0.240
+
+[oci]
+172.32.0.240 ansible_ssh_user=root
+
+[install-splunk-linux]
+172.32.0.240 ansible_ssh_user=root
+
+[windows]
+172.31.38.213
+
+[windows:vars]
+ansible_user = Administrator
+ansible_password = 
+ansible_port = 5986
+ansible_connection = winrm
+ansible_winrm_server_cert_validation = ignore
+ansible_winrm_transport = ssl
