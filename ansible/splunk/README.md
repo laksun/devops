@@ -12,4 +12,5 @@ ansible-playbook -i inventory SplunkUniversalForwarderInstallLinux.yml
 You can use "--skip-tags server-config"  in the command if the splunk server is not reachable
 
 Note:
-   You need to download the correct splunkforwarder and copy it to the /tmp/ directory.
+
+   You need to download the  splunkforwarder agent and copy it to the /tmp/ directory.
