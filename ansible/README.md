@@ -32,7 +32,7 @@ Centos (client):
     
 	      copy the content from the server id_rsa.pub into the .authorized_keys file
 		
-		b. service sshd restart
+    b. service sshd restart
 		
-		c. yum -y update
+    c. yum -y update
     
